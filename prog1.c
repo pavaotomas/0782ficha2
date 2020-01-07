@@ -20,11 +20,11 @@ if (menu=1)
 {
     final = n1*lib;
     printf("%.1fKG é %.1fLB\n",n1,final);
-    return 0;
-}else
-    final = n1*kg;
-    printf("%.1fLB é %.1fKG\n",n1,final);
     
-
+}else{
+    final = n1/lib;
+    printf("%.1fLB é %.1fKG\n",n1,final);
+   
+    }
 }
     

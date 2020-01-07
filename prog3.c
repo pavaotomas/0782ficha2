@@ -44,6 +44,6 @@ int main(void){ //Programa com um menu de escolhas para fazer conversões
 
         default: //Se for diferente
 
-        printf("Insira um menu válido\n");
+        printf("Opção invalida\n");
     }
 }
